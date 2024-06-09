@@ -26,10 +26,6 @@ GEM
     asciidoctor-html5s (0.5.1)
       asciidoctor (>= 1.5.7, < 3.0)
       thread_safe (~> 0.3.4)
-    asciidoctor-mathematical (0.3.5)
-      asciidoctor (~> 2.0)
-      asciimath (~> 2.0)
-      mathematical (~> 1.6.0)
     asciidoctor-multipage (0.0.16)
       asciidoctor (>= 2.0.11, < 2.1)
     asciidoctor-pdf (2.3.9)
@@ -46,7 +42,6 @@ GEM
       asciidoctor (~> 2.0)
     asciidoctor-revealjs (5.0.1)
       asciidoctor (>= 2.0.0, < 3.0.0)
-    asciimath (2.0.5)
     bibtex-ruby (5.1.6)
       latex-decode (~> 0.0)
     citeproc (1.0.10)
@@ -67,11 +62,7 @@ GEM
       nokogiri (>= 1.8.2, < 2.0)
       rubyzip (> 1.1.1, < 2.4)
     hashery (2.1.2)
-    i18n (1.14.1)
-      concurrent-ruby (~> 1.0)
     latex-decode (0.4.0)
-    mathematical (1.6.14)
-      ruby-enum (~> 0.4)
     matrix (0.4.2)
     mime-types (3.5.0)
       mime-types-data (~> 3.2015)
@@ -108,8 +99,6 @@ GEM
     racc (1.7.1)
     rexml (3.2.6)
     rouge (4.1.3)
-    ruby-enum (0.9.0)
-      i18n
     ruby-rc4 (0.1.5)
     rubyzip (2.3.2)
     thread_safe (0.3.6)
@@ -126,7 +115,6 @@ DEPENDENCIES
   asciidoctor-diagram
   asciidoctor-epub3
   asciidoctor-html5s
-  asciidoctor-mathematical
   asciidoctor-multipage
   asciidoctor-pdf
   asciidoctor-reducer

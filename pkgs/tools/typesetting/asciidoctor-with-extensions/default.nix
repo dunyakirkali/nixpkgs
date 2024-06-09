@@ -29,7 +29,7 @@ bundlerApp rec {
   '') exes);
 
   passthru = {
-    updateScript = bundlerUpdateScript "asciidoctor-with-extensions";
+    updateScript = bundlerUpdateScript "asciidoctor-with-extensions-no-maths";
   };
 
   meta = with lib; {
